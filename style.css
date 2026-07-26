@@ -1,0 +1,1755 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-img img {
+  width: 100px;
+  height: 50px;
+}
+
+.nav-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-info h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-btn1 {
+  padding: 15px 20px;
+  border-style: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.nav-btn2 {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.section1-title h1 {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.section1-title span {
+  padding-left: 110px;
+}
+
+.section1-subTitle p {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 22px;
+}
+
+.section1-subTitle span {
+  padding-left: 190px;
+}
+
+.section1-searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f6;
+  border-radius: 30px;
+}
+
+.section1-searchBar:hover {
+  background-color: white;
+}
+
+.searchBar h1 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section1-searchBar input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 400px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 17px;
+  background-color: #f3f3f6;
+}
+
+.section1-searchBar input:hover {
+  background-color: white;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-right: 10px;
+}
+
+.magnifyingGlass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec5e95;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+.section1-btn {
+  display: flex;
+}
+
+.section1-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section1-btn p {
+  color: rgb(161 161 170 / var(--tw-text-opacity, 1));
+}
+
+.section1-btn button {
+  padding: 5px 10px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 15px;
+}
+
+.section1-btn button:hover {
+  background-color: white;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 80px;
+}
+
+.section2-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section2-info h1 {
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section2-btn1 button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid #9c9c9e;
+  background-color: white;
+}
+
+.section2-btn2 button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid #9c9c9e;
+  background-color: white;
+}
+
+.section2-info :nth-child(1) {
+  background-color: #f3f3f6;
+  padding: 6px;
+  border-radius: 30px;
+}
+
+.section3 {
+  width: 100%;
+  height: 120%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.section3-heroWrap {
+  height: 100%;
+  width: 95%;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  grid-template-areas:
+    "box1 box2 box3 box4"
+    "box5 box6 box7 box8"
+    "box9 box10 box11 box12";
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.box1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box1-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box1.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.box1-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box1-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box1 h1 {
+  font-size: 15px;
+}
+
+.box1-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box1-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.text {
+  background-color: #f3f3f6;
+}
+
+.ri-poker-hearts-fill {
+  color: #828284;
+}
+
+.ri-poker-hearts-fill:hover {
+  color: #fc126c;
+}
+
+.ri-eye-fill {
+  color: #828284;
+}
+
+.box2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.box2-video video {
+  height: 240px;
+  width: 100%;
+  pointer-events: none;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+
+.box2-video {
+  position: relative;
+  overflow: hidden;
+}
+
+.box2-video:hover .hover-content-1 {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content-1 {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  opacity: 1;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.box2-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo2.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box2 h1 {
+  font-size: 15px;
+}
+
+.box2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box2-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.text {
+  background-color: #f3f3f6;
+}
+
+.box3 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box3-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box3.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.box3-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box3-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo3.webp);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box3 h1 {
+  font-size: 15px;
+}
+
+.box3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box3-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  background-color: #f3f3f6;
+}
+
+.box4 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box4-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box4.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.box4-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box4-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo4.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box4 h1 {
+  font-size: 15px;
+}
+
+.box4-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 5px;
+  justify-content: space-around;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box4-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box5 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box5-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box5.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.box5-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box5-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo5.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box5 h1 {
+  font-size: 15px;
+}
+
+.box5-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box5-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box6 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box6-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box6.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.box6-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box6-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo6.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box6 h1 {
+  font-size: 15px;
+}
+
+.box6-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box6-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box7 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box7-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box7.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.box7-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box7-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo7.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box7 h1 {
+  font-size: 15px;
+}
+
+.box7-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box7-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box8 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box8-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box8.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.box8-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box8-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo8.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box8 h1 {
+  font-size: 15px;
+}
+
+.box8-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box8-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box9 {
+  height: 100%;
+  width: 100%;
+}
+
+.box9-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box9.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.box9-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box9-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo9.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box9 h1 {
+  font-size: 15px;
+}
+
+.box9-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box9-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box10 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box10-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box10.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.box10-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box10-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo10.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box10 h1 {
+  font-size: 15px;
+}
+
+.box10-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box10-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box11 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box11-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box11.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.box11-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box11-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo11.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box11 h1 {
+  font-size: 15px;
+}
+
+.box11-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box11-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.box12 {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box12-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 85%;
+  width: 100%;
+  background-image: url(./box12.webp);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  display: flex;
+  gap: 5px;
+}
+
+.box12-img:hover .hover-content {
+  opacity: 1;
+  transform: translateY(0);
+  background: linear-gradient(transparent, black);
+}
+
+.hover-content {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(20, 48, 48);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.hover-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.hover-icon1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-poker-hearts-line {
+  font-size: 20px;
+}
+
+.hover-icon2 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.ri-bookmark-line {
+  font-size: 20px;
+}
+
+.box12-logo {
+  height: 25px;
+  width: 25px;
+  background-image: url(./logo12.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.box12 h1 {
+  font-size: 15px;
+}
+
+.box12-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.box1-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box12-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.section4 {
+  height: 60%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.section4-btn{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-btn button{
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+@keyframes logos {
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.section5{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+ 
+}
+
+.section4-container1{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+ flex-shrink: 0;
+   animation-name: logos;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.section4-container2{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+ flex-shrink: 0;
+   animation-name: logos;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.section4-box1{
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-box1 img{
+   height: 100px;
+  width: 100px;
+}
+
+.section4-box2{
+    height: 100%;
+  width: 15%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-box2 img{
+   height: 100px;
+  width: 100px;
+}
+
+.section4-box3{
+    height: 100%;
+    width: 15%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-box3 img{
+   height: 100px;
+  width: 100px;
+}
+
+.section4-box4{
+    height: 100%;
+    width: 15%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-box4 img{
+   height: 100px;
+  width: 100px;
+}
+
+.section4-box5{
+    height: 100%;
+   width: 15%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-box5 img{
+   height: 100px;
+  width: 100px;
+}
+
+.section4-box6{
+    height: 100%;
+   width: 15%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-box4 img{
+   height: 100px;
+  width: 100px;
+}
+
+footer{
+  height: 40%;
+  width: 100%;
+}
+
+.footer-nav{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-nav img{
+  height: 70px;
+  width: 130px;
+}
+
+.foot-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.foot-info h1{
+font-size: 18px;
+font-weight: 500;
+font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.foot-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.foot-icon i{
+  font-size: 25px;
+}
+
+.bottom{
+  display: flex;
+  padding-top: 50px;
+  font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+    align-items: center;
+    justify-content: center;
+    gap: 320px;
+}
+.bottom h1{
+font-size: 16px;
+font-weight: 400;
+color: #9c9c9e;
+}
+
+.left{
+  display: flex;
+  gap: 20px;
+}
+
+.right{
+  display: flex;
+  gap: 20px;
+}
